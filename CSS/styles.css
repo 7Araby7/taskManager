@@ -1,0 +1,141 @@
+.task-container {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.task-container:hover> :not(:hover) {
+    opacity: 0.8;
+}
+
+h1 {
+    text-align: center;
+    user-select: none;
+}
+
+h2 {
+    text-align: center;
+    user-select: none;
+}
+
+.task-block {
+    position: relative;
+    flex: 1 0 calc(33.33% - 20px);
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: opacity 0.7s ease;
+}
+
+.delete-button {
+    position: absolute;
+    bottom: 12px;
+    left: 5px;
+    padding: 1%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+
+.edit-button {
+    position: absolute;
+    bottom: 12px;
+    left: 40px;
+    padding: 1%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+
+.date {
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+    text-align: right;
+}
+
+.desc {
+    padding-bottom: 40px;
+}
+
+.add-task-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-task-button:hover {
+    background-color: #0056b3;
+
+}
+
+.profile-button:hover {
+    background-color: #0056b3;
+}
+
+.task-color-1 {
+    background-color: #c53615;
+}
+
+.task-color-2 {
+    background-color: #C70039;
+}
+
+.task-color-3 {
+    background-color: #900C3F;
+}
+
+.task-color-4 {
+    background-color: #581845;
+}
+
+.task-color-5 {
+    background-color: #40407A;
+}
+
+.task-color-6 {
+    background-color: #255957;
+}
+
+.task-color-7 {
+    background-color: #44AF69;
+}
+
+.task-color-8 {
+    background-color: #9B539C;
+}
+
+.task-color-9 {
+    background-color: #759b39;
+}
+
+.task-color-10 {
+    background-color: #d32b71;
+}
